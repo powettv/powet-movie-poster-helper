@@ -12,7 +12,7 @@
 			'<div style="text-align: center">\n' +
 			'	<img src=""/><br/>\n' +
 			'</div>';
-		tinymce.execCommand('mceInsertContent', false, movieTemplate );
+		tinymce.execCommand('mceSetContent', false, movieTemplate );
 	}
 
 	// Open dialog when clicking the Add Timeline button
