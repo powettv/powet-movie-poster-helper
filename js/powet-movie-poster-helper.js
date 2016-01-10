@@ -12,7 +12,6 @@
 			'<div style="text-align: center">\n' +
 			'	<img src=""/><br/>\n' +
 			'</div>';
-		console.log( this.dataset.postId );
 		tinymce.execCommand('mceInsertContent', false, movieTemplate );
 	}
 
