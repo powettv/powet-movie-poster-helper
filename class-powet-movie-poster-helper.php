@@ -1,4 +1,14 @@
 <?php
+
+/*
+Plugin Name: Powet Movie Poster Helper
+Description: Plugin to help authoring of Movie Poster posts
+Author: Crazy Jaco
+Author URI: http://github.com/crazyjaco
+Version: 1.1.0
+*/
+
+
 class Class_Powet_Movie_Poster_Helper {
 
 	private static $instance = false;
