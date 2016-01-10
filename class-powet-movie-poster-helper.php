@@ -23,12 +23,12 @@ class Class_Powet_Movie_Poster_Helper {
 
 	function __construct(){
 		add_action( 'media_buttons' ,         array( $this, 'add_movie_poster_template_button_to_editor' ) );
-		add_action( 'admin_enqueue_scripts',  array( $this, 'enqueue_admin_scripts_styles' ) );
+		add_action( 'admin_enqueue_scripts',  array( $this, 'admin_enqueue_scripts_styles' ) );
 
 	} // End function __construct.
 
 	function admin_enqueue_scripts_styles() {
-		wp_enqueue_script('powet-movie-poster-helper', plugins_url( '../js/powet-movie-poster-helper.js', __FILE__ ), array( 'jquery' ), '1.0', true );
+		wp_enqueue_script('powet-movie-poster', plugins_url( 'js/powet-movie-poster-helper.js', __FILE__ ), array( 'jquery' ), '1.0', true );
 	} // End function admin_enqueue_scripts_styles.
 
 	function add_movie_poster_template_button_to_editor( $editor_id = "content" ) {
