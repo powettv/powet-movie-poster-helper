@@ -17,6 +17,6 @@
 	}
 
 	// Open dialog when clicking the Add Timeline button
-	jQuery('#insert-movie-poster-template').on('click', insertMoviePosterTemplate );
+	jQuery('#insert-movie-poster-template-button').on('click', insertMoviePosterTemplate );
 
 })();
