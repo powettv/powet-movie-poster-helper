@@ -12,7 +12,8 @@
 			'<div style="text-align: center">\n' +
 			'	<img src=""/><br/>\n' +
 			'</div>';
-		tinymce.execCommand('mceSetContent', false, movieTemplate );
+		wp.media.editor.insert( movieTemplate );
+		//tinymce.execCommand('mceSetContent', false, movieTemplate );
 	}
 
 	// Open dialog when clicking the Add Timeline button
